@@ -47,6 +47,15 @@ ol li {
 	list-style-position: inside;
 }
 
+a, a:visited {
+	color: #196cb1;
+	-webkit-transition: color 0.3s ease-in-out 0s;
+}
+
+a:hover, a:active {
+	color: #4797d9;
+}
+
 /* Specific styles */
 .date {
 	color: #666;
@@ -93,13 +102,4 @@ ol li {
 	padding: 10px 0;
 	color: #666;
 	margin-top: 40px;
-}
-
-a, a:visited {
-	color: #196cb1;
-	-webkit-transition: color 0.3s ease-in-out 0s;
-}
-
-a:hover, a:active {
-	color: #4797d9;
 }
