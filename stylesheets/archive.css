@@ -1,0 +1,17 @@
+#archive ul {
+	margin: 20px 0 20px 20px;
+	line-height: 25px;
+}
+
+#archive ul li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+#archive h2 {
+	margin-top: 40px;
+}
+
+#archive h2:first-child {
+	margin-top: 0;
+}

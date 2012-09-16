@@ -4,8 +4,55 @@ html, body {
 
 html, body {
     font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
 }
 
+p {
+	margin: 20px 0;
+	line-height: 25px;
+}
+
+h1, h2, h3 {
+	font-family: Neuton, Georgia, serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+code {
+	font-family: Menlo, monospace;
+	font-size: 14px;
+	background-color: #e5e5e5;
+}
+
+ul, ol {
+	margin: 20px 0 20px 20px;
+	line-height: 25px;
+}
+
+ul li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ol li {
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+
+/* Specific styles */
+.date {
+	color: #666;
+}
+
+/* Layout */
 #container {
 	width: 800px;
 	margin: 40px auto;
