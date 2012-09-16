@@ -1,0 +1,5 @@
+exclude: [ Gemfile, Gemfile.lock ]
+safe: true
+pygments: true
+lsi: false
+permalink: /:year/:month/:title
