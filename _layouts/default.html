@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
   <head>
-    <title>Matthias Plappert{% if page.title %}: {{ page.title }}{% endif %}</title>
+    <title>The Bay{% if page.title %}: {{ page.title }}{% endif %}</title>
 
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
   </head>
 
   <body>
-    {{ content }}
+    <div id="container">
+      <header>
+        <a href="/">
+          <strong>The Bay</strong><br />
+          <em>Leben &amp; Arbeiten in San Francisco</em>
+        </a>
+      </header>
+      
+      <div id="content">
+        {{ content }}
+      </div>
+      
+      <footer>
+        &copy; 2012 <a href="http://matthiasplappert.com">Matthias Plappert</a>
+      </footer>
+    </div>
   </body>
 </html>
