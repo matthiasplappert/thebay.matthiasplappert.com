@@ -9,7 +9,7 @@ html, body {
 
 p {
 	margin: 20px 0;
-	line-height: 25px;
+	line-height: 27px;
 }
 
 h1, h2, h3 {
@@ -63,7 +63,7 @@ a:hover, a:active {
 
 /* Layout */
 #container {
-	width: 800px;
+	width: 700px;
 	margin: 40px auto;
 }
 
