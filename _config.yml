@@ -3,3 +3,7 @@ safe: true
 pygments: true
 lsi: false
 permalink: /:year/:month/:title
+
+name: The Bay
+description: Leben & Arbeiten in San Francisco
+url: http://thebay.matthiasplappert.com
